@@ -1,0 +1,27 @@
+{
+  "name": "proyecto-api",
+  "version": "0.0.1",
+  "description": "proyecto de reforma de la web de la OGPL",
+  "main": "index.js",
+  "author": "Leonardo Fernandez",
+  "license": "MIT",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "dependencies": {
+    "@tinymce/tinymce-react": "^4.3.0",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.20.1",
+    "connect-multiparty": "^2.2.0",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^8.5.1",
+    "jwt-decode": "^3.1.2",
+    "mongoose": "^6.6.5",
+    "mongoose-paginate": "^5.0.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
